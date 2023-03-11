@@ -5,11 +5,7 @@
 }
 
 body{
-    background: radial-gradient(#FEF070,#C42F00, #FC6B03 );
-}
-
-img{
-    width: 740px;
+    background: radial-gradient(#FEF070,#C42F00, #FC6B03);
 }
 
 .container{
@@ -23,7 +19,7 @@ img{
 main{
     display: flex;
     width: 90%;
-    height: 85%;
+    height: 75%;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -39,6 +35,8 @@ ol{
 }
 
 .slider{
+    width: 100%;
+    height: 100vh;
     position: relative;
     display: flex;
     transition: all 0.5s;
@@ -49,6 +47,41 @@ ol{
     width: 20%;
     position: relative;
     transition: ease-in-out 0.5s;
+}
+
+.slider .slide:nth-child(1){
+    background: url(images/sheldon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(2){
+    background: url(images/leonard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(3){
+    background: url(images/peny.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(4){
+    background: url(images/raj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(5){
+    background: url(images/Howard-Wolowitz-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .slider .slide:hover{
