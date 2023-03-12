@@ -19,7 +19,7 @@ body{
 main{
     display: flex;
     width: 90%;
-    height: 75%;
+    height: 85%;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -50,7 +50,7 @@ ul{
 }
 
 .slider .slide:nth-child(1){
-    background: url(images/sheldon.webp);
+    background: url(images/260j6ka1imzto0kp7juhiirdz.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -84,7 +84,7 @@ ul{
 }
 
 .slider .slide:hover{
-    width: 80%;
-    transform: scale(1.1);
+    width: 95%;
+    transform: scale(1.05);
     cursor: pointer;
 }
